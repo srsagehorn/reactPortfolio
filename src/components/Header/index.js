@@ -23,22 +23,22 @@ export default function () {
     <div class="toggler-example collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link" href="index.html"
+          <a class="nav-link" href="/"
             >Home<span class="sr-only">(current)</span></a
           >
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="portfolio.html"
+          <a class="nav-link" href="/portfolio"
             >Portfolio <span class="sr-only">(current)</span></a
           >
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="resume.html"
+          <a class="nav-link" href="/resume"
             >Resume <span class="sr-only">(current)</span></a
           >
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="contact.html"
+          <a class="nav-link" href="/contact"
             >Contact Me <span class="sr-only">(current)</span></a
           >
         </li>
