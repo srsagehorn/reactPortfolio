@@ -1,11 +1,10 @@
 import React from "react";
-import Bio from "../../components/Bio";
+import Portfolio from "../../components/Portfolio";
 import Footer from "../../components/Footer";
 
 export default function () {
   return (
     <div>
-      <Header />
       <Portfolio />
       <Footer />
     </div>

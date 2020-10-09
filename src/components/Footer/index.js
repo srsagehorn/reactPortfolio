@@ -5,7 +5,7 @@ export default function () {
     <footer>
       <div class="contactContainer contactFooter">
         <p>
-          <img src="pics/slogo.png" />
+          <img src="pics/slogo.png" alt="small logo" />
           <br />
           Shannon Sagehorn | Copyright &copy; 2020 - All Rights Reserved
         </p>

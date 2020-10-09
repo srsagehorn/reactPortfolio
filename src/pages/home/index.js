@@ -1,11 +1,10 @@
 import React from "react";
-import Bio from "../../components/Bio";
+import Home from "../../components/Home";
 import Footer from "../../components/Footer";
 
 export default function () {
   return (
     <div>
-      <Header />
       <Home />
       <Footer />
     </div>
