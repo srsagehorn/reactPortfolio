@@ -39,20 +39,20 @@ export default function () {
                           <div class="carousel-item active">
                             <img
                               class="d-block w-100 img-fluid"
-                              src="pics/code.png"
+                              src={require("../../pics/code.png")}
                               alt="screenshot of codewars account stats"
                             />
                             <div class="carousel-item">
                               <img
                                 class="d-block w-100 img-fluid"
-                                src="pics/codeExample.jpg"
+                                src={require("../../pics/codeExample.jpg")}
                                 alt="Example of a github repo entry"
                               />
                             </div>
                             <div class="carousel-item">
                               <img
                                 class="d-block w-100 img-fluid"
-                                src="pics/codewars.jpg"
+                                src={require("../../pics/codewars.jpg")}
                                 alt="Shannon's code wars account"
                               />
                             </div>
@@ -107,7 +107,7 @@ export default function () {
                       Live Site{" "}
                       <img
                         class="leave"
-                        src="pics/leaveSite.png"
+                        src={require("../../pics/leaveSite.png")}
                         alt="leave site icon"
                       />
                     </a>
@@ -120,7 +120,7 @@ export default function () {
                       Github Repo{" "}
                       <img
                         class="leave"
-                        src="pics/leaveSite.png"
+                        src={require("../../pics/leaveSite.png")}
                         alt="leave site icon"
                       />
                     </a>
@@ -160,21 +160,21 @@ export default function () {
                           <div class="carousel-item active">
                             <img
                               class="d-block w-100 img-fluid"
-                              src="pics/fflLogo.png"
+                              src={require("../../pics/fflLogo.png")}
                               alt="portfolio piece"
                             />
                           </div>
                           <div class="carousel-item">
                             <img
                               class="d-block w-100 img-fluid"
-                              src="pics/ffl1.png"
+                              src={require("../../pics/ffl1.png")}
                               alt="Example of a github repo entry"
                             />
                           </div>
                           <div class="carousel-item">
                             <img
                               class="d-block w-100 img-fluid"
-                              src="pics/ffl2.png"
+                              src={require("../../pics/ffl2.png")}
                               alt="Shannon's code wars account"
                             />
                           </div>
@@ -225,7 +225,7 @@ export default function () {
                       Live Site{" "}
                       <img
                         class="leave"
-                        src="pics/leaveSite.png"
+                        src={require("../../pics/leaveSite.png")}
                         alt="leave site icon"
                       />
                     </a>
@@ -239,7 +239,7 @@ export default function () {
                       Github Repo{" "}
                       <img
                         class="leave"
-                        src="pics/leaveSite.png"
+                        src={require("../../pics/leaveSite.png")}
                         alt="leave site icon"
                       />
                     </a>
@@ -279,7 +279,7 @@ export default function () {
                           <div class="carousel-item active">
                             <img
                               class="d-block w-100 img-fluid"
-                              src="pics/eeiLogo.png"
+                              src={require("../../pics/eeiLogo.png")}
                               alt="portfolio piece"
                             />
                           </div>
@@ -336,7 +336,7 @@ export default function () {
                       Github
                       <img
                         class="leave"
-                        src="pics/leaveSite.png"
+                        src={require("../../pics/leaveSite.png")}
                         alt="leave site icon"
                       />
                     </a>
@@ -376,21 +376,21 @@ export default function () {
                           <div class="carousel-item active">
                             <img
                               class="d-block w-100 img-fluid"
-                              src="pics/musicnMovies.png"
+                              src={require("../../pics/musicnMovies.png")}
                               alt="portfolio piece"
                             />
                           </div>
                           <div class="carousel-item">
                             <img
                               class="d-block w-100 img-fluid"
-                              src="pics/movic.png"
+                              src={require("../../pics/movic.png")}
                               alt="portfolio piece"
                             />
                           </div>
                           <div class="carousel-item">
                             <img
                               class="d-block w-100 img-fluid"
-                              src="pics/movic2.jpg"
+                              src={require("../../pics/movic2.jpg")}
                               alt="portfolio piece"
                             />
                           </div>
@@ -439,7 +439,7 @@ export default function () {
                       Visit Application{" "}
                       <img
                         class="leave"
-                        src="pics/leaveSite.png"
+                        src={require("../../pics/leaveSite.png")}
                         alt="leave site icon"
                       />
                     </a>
@@ -452,7 +452,7 @@ export default function () {
                       GitHub Repo{" "}
                       <img
                         class="leave"
-                        src="pics/leaveSite.png"
+                        src={require("../../pics/leaveSite.png")}
                         alt="leave site icon"
                       />
                     </a>
@@ -492,21 +492,21 @@ export default function () {
                           <div class="carousel-item active">
                             <img
                               class="d-block w-100 img-fluid"
-                              src="pics/cal.png"
+                              src={require("../../pics/cal.png")}
                               alt="portfolio piece"
                             />
                           </div>
                           <div class="carousel-item">
                             <img
                               class="d-block w-100 img-fluid"
-                              src="pics/calendar.gif"
+                              src={require("../../pics/calendar.gif")}
                               alt="gif of calendar animation"
                             />
                           </div>
                           <div class="carousel-item">
                             <img
                               class="d-block w-100 img-fluid"
-                              src="pics/calWire.jpg"
+                              src={require("../../pics/calWire.jpg")}
                               alt="gif of calendar animation"
                             />
                           </div>
@@ -558,7 +558,7 @@ export default function () {
                       Visit Application{" "}
                       <img
                         class="leave"
-                        src="pics/leaveSite.png"
+                        src={require("../../pics/leaveSite.png")}
                         alt="leave site icon"
                       />
                     </a>
@@ -571,7 +571,7 @@ export default function () {
                       Github Repo{" "}
                       <img
                         class="leave"
-                        src="pics/leaveSite.png"
+                        src={require("../../pics/leaveSite.png")}
                         alt="leave site icon"
                       />
                     </a>

@@ -5,7 +5,11 @@ export default function () {
     <header class="navbar navbar-expand-lg">
       <div class="logoName navbar-text">
         <a class="navbar-brand" href="/">
-          <img class="navImg" src="pics/logo.png" alt="SS logo" />
+          <img
+            class="navImg"
+            src={require("../../pics/logo.png")}
+            alt="SS logo"
+          />
         </a>
         <a href="/" class="name">
           Shannon Sagehorn
@@ -22,7 +26,7 @@ export default function () {
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon ">
-            <img src="pics/menu.png" alt="" class="menu" />
+            <img src={require("../../pics/menu.png")} alt="" class="menu" />
           </span>
         </button>
         <div class="toggler-example collapse navbar-collapse" id="navbarText">

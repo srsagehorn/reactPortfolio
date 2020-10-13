@@ -14,7 +14,7 @@ export default function () {
           <img
             class="contactImg"
             id="gitimg"
-            src="pics/github.png"
+            src={require("../../pics/github.png")}
             alt="Github Logo"
           />
         </a>
@@ -25,7 +25,7 @@ export default function () {
         >
           <img
             class="contactImg"
-            src="pics/linkedIn.png"
+            src={require("../../pics/linkedIn.png")}
             alt="Linked In Logo"
           />
         </a>
@@ -34,21 +34,33 @@ export default function () {
           rel="noopener noreferrer"
           target="_blank"
         >
-          <img class="contactImg" src="pics/gmail.png" alt="Gmail Logo" />
+          <img
+            class="contactImg"
+            src={require("../../pics/gmail.png")}
+            alt="Gmail Logo"
+          />
         </a>
         <a
           href="https://www.facebook.com/shannon.sagehorn"
           rel="noopener noreferrer"
           target="_blank"
         >
-          <img class="contactImg" src="pics/fb.png" alt="facebook Logo" />
+          <img
+            class="contactImg"
+            src={require("../../pics/fb.png")}
+            alt="facebook Logo"
+          />
         </a>
         <a
           href="https://www.instagram.com/shannanagins_/"
           rel="noopener noreferrer"
           target="_blank"
         >
-          <img class="contactImg" src="pics/insta.png" alt="Instagram logo" />
+          <img
+            class="contactImg"
+            src={require("../../pics/insta.png")}
+            alt="Instagram logo"
+          />
         </a>
       </div>
     </main>

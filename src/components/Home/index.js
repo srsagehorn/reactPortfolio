@@ -7,7 +7,11 @@ export default function () {
       <div class="colorBox">
         <div class="row headLiner">
           <div class="col-lg-6 imgContainer">
-            <img class="imgMe" src="pics/me2.jpg" alt="portrait of Shannon" />
+            <img
+              class="imgMe"
+              src={require("../../pics/me.jpg")}
+              alt="portrait of Shannon"
+            />
           </div>
           <div class="col-lg-6 heading">
             <div id="left">
