@@ -36,7 +36,7 @@
       "last 1 safari version"
     ]
   },
-  "description": "https://srsagehorn.github.io/reactPortfolio",
+  "description": "https://srsagehorn.github.io/reactPortfolio/home",
   "main": "index.js",
   "devDependencies": {},
   "repository": {
@@ -48,5 +48,5 @@
   "bugs": {
     "url": "https://github.com/srsagehorn/reactPortfolio/issues"
   },
-  "homepage": "https://srsagehorn.github.io/reactPortfolio"
+  "homepage": "https://srsagehorn.github.io/home"
 }
