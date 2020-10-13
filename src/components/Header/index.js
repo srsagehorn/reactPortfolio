@@ -4,10 +4,10 @@ export default function () {
   return (
     <header class="navbar navbar-expand-lg">
       <div class="logoName navbar-text">
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="/">
           <img class="navImg" src="pics/logo.png" alt="SS logo" />
         </a>
-        <a href="index.html" class="name">
+        <a href="/" class="name">
           Shannon Sagehorn
         </a>
       </div>
