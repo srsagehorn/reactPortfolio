@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/srsagehorn/reactPortfoliostatic/css/main.d9b35234.chunk.css",
-    "main.js": "/srsagehorn/reactPortfoliostatic/js/main.56c3cf27.chunk.js",
-    "main.js.map": "/srsagehorn/reactPortfoliostatic/js/main.56c3cf27.chunk.js.map",
-    "runtime-main.js": "/srsagehorn/reactPortfoliostatic/js/runtime-main.f38824cd.js",
-    "runtime-main.js.map": "/srsagehorn/reactPortfoliostatic/js/runtime-main.f38824cd.js.map",
-    "static/js/2.c96c2eeb.chunk.js": "/srsagehorn/reactPortfoliostatic/js/2.c96c2eeb.chunk.js",
-    "static/js/2.c96c2eeb.chunk.js.map": "/srsagehorn/reactPortfoliostatic/js/2.c96c2eeb.chunk.js.map",
-    "index.html": "/srsagehorn/reactPortfolioindex.html",
-    "precache-manifest.28c81caca58a4ed46000ff6f2dc0c502.js": "/srsagehorn/reactPortfolioprecache-manifest.28c81caca58a4ed46000ff6f2dc0c502.js",
-    "service-worker.js": "/srsagehorn/reactPortfolioservice-worker.js",
-    "static/css/main.d9b35234.chunk.css.map": "/srsagehorn/reactPortfoliostatic/css/main.d9b35234.chunk.css.map",
-    "static/js/2.c96c2eeb.chunk.js.LICENSE.txt": "/srsagehorn/reactPortfoliostatic/js/2.c96c2eeb.chunk.js.LICENSE.txt"
+    "main.css": "/srsagehorn/reactPortfolio/static/css/main.d9b35234.chunk.css",
+    "main.js": "/srsagehorn/reactPortfolio/static/js/main.2ae905ff.chunk.js",
+    "main.js.map": "/srsagehorn/reactPortfolio/static/js/main.2ae905ff.chunk.js.map",
+    "runtime-main.js": "/srsagehorn/reactPortfolio/static/js/runtime-main.f418971e.js",
+    "runtime-main.js.map": "/srsagehorn/reactPortfolio/static/js/runtime-main.f418971e.js.map",
+    "static/js/2.c96c2eeb.chunk.js": "/srsagehorn/reactPortfolio/static/js/2.c96c2eeb.chunk.js",
+    "static/js/2.c96c2eeb.chunk.js.map": "/srsagehorn/reactPortfolio/static/js/2.c96c2eeb.chunk.js.map",
+    "index.html": "/srsagehorn/reactPortfolio/index.html",
+    "precache-manifest.7cf43257a72331129cf05fb21f291232.js": "/srsagehorn/reactPortfolio/precache-manifest.7cf43257a72331129cf05fb21f291232.js",
+    "service-worker.js": "/srsagehorn/reactPortfolio/service-worker.js",
+    "static/css/main.d9b35234.chunk.css.map": "/srsagehorn/reactPortfolio/static/css/main.d9b35234.chunk.css.map",
+    "static/js/2.c96c2eeb.chunk.js.LICENSE.txt": "/srsagehorn/reactPortfolio/static/js/2.c96c2eeb.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.f38824cd.js",
+    "static/js/runtime-main.f418971e.js",
     "static/js/2.c96c2eeb.chunk.js",
     "static/css/main.d9b35234.chunk.css",
-    "static/js/main.56c3cf27.chunk.js"
+    "static/js/main.2ae905ff.chunk.js"
   ]
 }
