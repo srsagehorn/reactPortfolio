@@ -2,7 +2,7 @@
 // import logo from "./logo.svg";
 // import "./App.css";
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import ReactDOM from "react-dom";
 import Header from "./components/Header";
 import "./App.css";
@@ -15,12 +15,14 @@ import "./style.css";
 class App extends Component {
   render() {
     return (
-      <Router basename={process.env.PUBLIC_URL}>
-        <Header />
-        <Route exact path="/home" component={Home} />
-        <Route exact path="/port" component={Portfolio} />
-        <Route exact path="/res" component={Resume} />
-        <Route exact path="/cont" component={Contact} />
+      <Router>
+        <div>
+          <Header />
+          <Route path="/home" exact component={Home} />
+          <Route path="/port" exact component={Portfolio} />
+          <Route path="/res" exact component={Resume} />
+          <Route path="/cont" exact component={Contact} />
+        </div>
       </Router>
     );
   }
