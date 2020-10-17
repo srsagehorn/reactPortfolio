@@ -19,7 +19,7 @@ function App () {
         >
         <div>
           <Header />
-          <Route path="/home" exact component={Home} />
+          <Route path="/" exact component={Home} />
           <Route path="/port" exact component={Portfolio} />
           <Route path="/res" exact component={Resume} />
           <Route path="/cont" exact component={Contact} />
