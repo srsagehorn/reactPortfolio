@@ -3,7 +3,7 @@ import React from "react";
 export default function () {
   return (
     <footer>
-      <div class="contactContainer">
+      <div className="contactContainer">
         <p>
           <img src={require("../../pics/slogo.png")} alt="small logo" />
           <br />

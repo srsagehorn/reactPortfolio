@@ -2,210 +2,210 @@ import React from "react";
 
 export default function () {
   return (
-    <main class="pageContent">
+    <main className="pageContent">
       {/* <!-- resume --> */}
-      <div class="colorBlock">
-        <span class="title">RESUME</span>
+      <div className="colorBlock">
+        <span className="title">RESUME</span>
         <a href="downloads/res.pdf" download rel="noopener" target="_blank">
-          <button type="button" class="btn btn-outline-secondary" id="download">
-            PDF<i class="fa fa-download"></i>
+          <button type="button" className="btn btn-outline-secondary" id="download">
+            PDF<i className="fa fa-download"></i>
           </button>
         </a>
       </div>
-      <div class="container resumeContainer">
-        <div class="row">
-          {/* <div class="col-md-2">
-        <div class="vl"></div>
+      <div className="container resumeContainer">
+        <div className="row">
+          {/* <div className="col-md-2">
+        <div className="vl"></div>
       </div> --> */}
-          <div class="col-md-12 resume">
-            <div class="box">
-              <div class="h6">EDUCATION</div>
+          <div className="col-md-12 resume">
+            <div className="box">
+              <div className="h6">EDUCATION</div>
               {/* <!-- ASU --> */}
-              <div class="row resBlock">
-                <div class="col-md-2 resIcon">
+              <div className="row resBlock">
+                <div className="col-md-2 resIcon">
                   <img
-                    class="resPic"
+                    className="resPic"
                     src="pics/asu.png"
                     alt="Arizona State University Logo"
                   />
                 </div>
-                <div class="col-md-10">
-                  {/* <!-- <p class="dates">
+                <div className="col-md-10">
+                  {/* <!-- <p className="dates">
               August 2019 - December 2020
             </p> --> */}
-                  <p class="eduHead">
+                  <p className="eduHead">
                     Arizona State University{" "}
-                    <span class="dates">August 2019 - December 2020</span>
+                    <span className="dates">August 2019 - December 2020</span>
                   </p>
-                  <p class="eduHead2">
+                  <p className="eduHead2">
                     Bachelor of Science in Graphic Information Technology
                   </p>
-                  <p class="info">Primary Focus - Front-End Web Design</p>
-                  <p class="info">Secondary Focus - Communication Studies</p>
-                  <p class="info">GPA - 3.91</p>
-                  <span class="cskill">HTML/CSS</span>
-                  <span class="cskill">JavaScript</span>
-                  <span class="gdskill">Photoshop</span>
-                  <span class="gdskill">Illusttrator</span>
-                  <span class="gdskill">After Effects</span>
-                  <span class="gdskill">Premier Pro</span>
-                  <span class="gdskill">Light Room</span>
+                  <p className="info">Primary Focus - Front-End Web Design</p>
+                  <p className="info">Secondary Focus - Communication Studies</p>
+                  <p className="info">GPA - 3.91</p>
+                  <span className="cskill">HTML/CSS</span>
+                  <span className="cskill">JavaScript</span>
+                  <span className="gdskill">Photoshop</span>
+                  <span className="gdskill">Illusttrator</span>
+                  <span className="gdskill">After Effects</span>
+                  <span className="gdskill">Premier Pro</span>
+                  <span className="gdskill">Light Room</span>
                 </div>
               </div>
               {/* <!-- northwestern --> */}
-              <div class="row resBlock">
-                <div class="col-md-2 resIcon">
+              <div className="row resBlock">
+                <div className="col-md-2 resIcon">
                   <img
-                    class="resPic"
+                    className="resPic"
                     src="pics/nu.png"
                     alt="Northwestern University Logo"
                   />
                 </div>
-                <div class="col-md-10">
-                  <p class="eduHead">
+                <div className="col-md-10">
+                  <p className="eduHead">
                     Northwestern University{" "}
-                    <span class="dates">April 2020 - October 2020</span>
+                    <span className="dates">April 2020 - October 2020</span>
                   </p>
-                  <p class="eduHead2">
+                  <p className="eduHead2">
                     Graduate Certificate - Full Stack Development
                   </p>
-                  <span class="cskill">Python</span>
-                  <span class="cskill">Java</span>
-                  <span class="cskill">JavaScript</span>
-                  <span class="cskill">jQuery</span>
-                  <span class="cskill">Ajax/APIs</span>
-                  <span class="cskill">JSON</span>
-                  <span class="cskill">Bootstrap</span>
-                  <span class="cskill">Visual Studio</span>
-                  <span class="cskill">Git/GitHub</span>
-                  <span class="cskill">MongoDB</span>
-                  <span class="cskill">HTML/CSS</span>
-                  <span class="cskill">Node.js</span>
-                  <span class="cskill">Jest</span>
-                  <span class="cskill">MySQL</span>
-                  <span class="cskill">React</span>
+                  <span className="cskill">Python</span>
+                  <span className="cskill">Java</span>
+                  <span className="cskill">JavaScript</span>
+                  <span className="cskill">jQuery</span>
+                  <span className="cskill">Ajax/APIs</span>
+                  <span className="cskill">JSON</span>
+                  <span className="cskill">Bootstrap</span>
+                  <span className="cskill">Visual Studio</span>
+                  <span className="cskill">Git/GitHub</span>
+                  <span className="cskill">MongoDB</span>
+                  <span className="cskill">HTML/CSS</span>
+                  <span className="cskill">Node.js</span>
+                  <span className="cskill">Jest</span>
+                  <span className="cskill">MySQL</span>
+                  <span className="cskill">React</span>
                 </div>
               </div>
               {/* <!-- Nebraska --> */}
-              <div class="row resBlock">
-                <div class="col-md-2 resIcon">
+              <div className="row resBlock">
+                <div className="col-md-2 resIcon">
                   <img
-                    class="resPic"
+                    className="resPic"
                     src="pics/nebraska.png"
                     alt="University of Nebraska - Lincoln"
                   />
                 </div>
 
-                <div class="col-md-10 neb">
-                  <p class="eduHead">
+                <div className="col-md-10 neb">
+                  <p className="eduHead">
                     University of Nebraska - Lincoln{" "}
-                    <span class="dates">August 2017 - May 2019</span>
+                    <span className="dates">August 2017 - May 2019</span>
                   </p>
                 </div>
               </div>
             </div>
-            <div class="box">
-              <div class="h6">INVOLVEMENT & AWARDS</div>
-              <div class="row resBlock">
-                <div class="col-md-2 resIcon">
+            <div className="box">
+              <div className="h6">INVOLVEMENT & AWARDS</div>
+              <div className="row resBlock">
+                <div className="col-md-2 resIcon">
                   <img
-                    class="resPic"
+                    className="resPic"
                     src="pics/asu.png"
                     alt="Arizona State University Logo"
                   />
                 </div>
-                <div class="col-md-10">
-                  <p class="eduHead">
+                <div className="col-md-10">
+                  <p className="eduHead">
                     Dean's List{" "}
-                    <span class="dates">August 2019 - December 2020</span>
+                    <span className="dates">August 2019 - December 2020</span>
                   </p>
-                  <p class="eduHead2">Arizona State University</p>
+                  <p className="eduHead2">Arizona State University</p>
                 </div>
               </div>
               {/* <!-- AKPsi --> */}
-              <div class="row resBlock">
-                <div class="col-md-2 resIcon">
+              <div className="row resBlock">
+                <div className="col-md-2 resIcon">
                   <img
-                    class="resPic"
+                    className="resPic"
                     src="pics/akpsi.png"
                     alt="Alpha Kappa Psi logo"
                   />
                 </div>
-                <div class="col-md-10">
-                  <p class="eduHead">Alpha Kappa Psi - Zeta Chapter Alumni</p>
-                  <p class="eduHead2">Professional Business Fraternity</p>
-                  <p class="info">Pledge Educator 2017-2019</p>
-                  <p class="info">Chairman of Service 2017-2018</p>
+                <div className="col-md-10">
+                  <p className="eduHead">Alpha Kappa Psi - Zeta Chapter Alumni</p>
+                  <p className="eduHead2">Professional Business Fraternity</p>
+                  <p className="info">Pledge Educator 2017-2019</p>
+                  <p className="info">Chairman of Service 2017-2018</p>
                 </div>
               </div>
               {/* <!-- Kappa Delta --> */}
-              <div class="row resBlock">
-                <div class="col-md-2 resIcon">
+              <div className="row resBlock">
+                <div className="col-md-2 resIcon">
                   <img
-                    class="resPic"
+                    className="resPic"
                     src="pics/kd.png"
                     alt="Kappa Delta logo"
                   />
                 </div>
-                <div class="col-md-10">
-                  <p class="eduHead">Kappa Delta - Pi Chapter Alumni</p>
+                <div className="col-md-10">
+                  <p className="eduHead">Kappa Delta - Pi Chapter Alumni</p>
                 </div>
               </div>
-              <div class="row resBlock">
-                <div class="col-md-2 resIcon">
+              <div className="row resBlock">
+                <div className="col-md-2 resIcon">
                   <img
-                    class="resPic"
+                    className="resPic"
                     src="pics/nebraska.png"
                     alt="University of Nebraska - Lincoln"
                   />
                 </div>
 
-                <div class="col-md-10">
-                  <p class="eduHead">
+                <div className="col-md-10">
+                  <p className="eduHead">
                     Nomine - Undergraduate Excellence in Communication Award{" "}
-                    <span class="dates">2018</span>
+                    <span className="dates">2018</span>
                   </p>
-                  <p class="eduHead2">University of Nebraska - Lincoln</p>
+                  <p className="eduHead2">University of Nebraska - Lincoln</p>
                 </div>
               </div>
             </div>
-            <div class="box">
-              <div class="h6">WORK EXPERIENCE</div>
-              <div class="row resBlock">
-                <div class="col-md-2 resIcon">
+            <div className="box">
+              <div className="h6">WORK EXPERIENCE</div>
+              <div className="row resBlock">
+                <div className="col-md-2 resIcon">
                   <img
-                    class="resPic"
+                    className="resPic"
                     src="pics/vmm.png"
                     alt="Vision Maker Media Logo"
                   />
                 </div>
-                <div class="col-md-10">
-                  <p class="eduHead">
+                <div className="col-md-10">
+                  <p className="eduHead">
                     Vision Maker Media{" "}
-                    <span class="dates">November 2017 - July 2018</span>
+                    <span className="dates">November 2017 - July 2018</span>
                   </p>
-                  <p class="eduHead2">Business Development Intern</p>
-                  <span class="skill">FileMaker Pro</span>
-                  <span class="skill">Salesforce</span>
-                  <span class="skill">Hootsuite</span>
-                  <span class="skill">Social Media</span>
-                  <span class="skill">Non-Profit</span>
+                  <p className="eduHead2">Business Development Intern</p>
+                  <span className="skill">FileMaker Pro</span>
+                  <span className="skill">Salesforce</span>
+                  <span className="skill">Hootsuite</span>
+                  <span className="skill">Social Media</span>
+                  <span className="skill">Non-Profit</span>
                 </div>
               </div>
-              <div class="row resBlock">
-                <div class="col-md-2 resIcon">
+              <div className="row resBlock">
+                <div className="col-md-2 resIcon">
                   <img
-                    class="resPic"
+                    className="resPic"
                     src="pics/nebraska.png"
                     alt="University of Nebraska - Lincoln"
                   />
                 </div>
-                <div class="col-md-10">
-                  <p class="eduHead">
+                <div className="col-md-10">
+                  <p className="eduHead">
                     University of Nebraska - Communications Department
-                    <span class="dates">January 2018 - May 2018</span>
+                    <span className="dates">January 2018 - May 2018</span>
                   </p>
-                  <p class="eduHead2">Research Assistant</p>
+                  <p className="eduHead2">Research Assistant</p>
                 </div>
               </div>
             </div>

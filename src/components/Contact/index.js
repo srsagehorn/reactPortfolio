@@ -2,9 +2,9 @@ import React from "react";
 
 export default function () {
   return (
-    <main class="pageContent">
+    <main className="pageContent">
       <div id="space"></div>
-      <div class="col contactIcons">
+      <div className="col contactIcons">
         <h1>Let's Talk!</h1>
         <a
           href="https://github.com/srsagehorn"
@@ -12,7 +12,7 @@ export default function () {
           target="_blank"
         >
           <img
-            class="contactImg"
+            className="contactImg"
             id="gitimg"
             src={require("../../pics/github.png")}
             alt="Github Logo"
@@ -24,7 +24,7 @@ export default function () {
           target="_blank"
         >
           <img
-            class="contactImg"
+            className="contactImg"
             src={require("../../pics/linkedIn.png")}
             alt="Linked In Logo"
           />
@@ -35,7 +35,7 @@ export default function () {
           target="_blank"
         >
           <img
-            class="contactImg"
+            className="contactImg"
             src={require("../../pics/gmail.png")}
             alt="Gmail Logo"
           />
@@ -46,7 +46,7 @@ export default function () {
           target="_blank"
         >
           <img
-            class="contactImg"
+            className="contactImg"
             src={require("../../pics/fb.png")}
             alt="facebook Logo"
           />
@@ -57,7 +57,7 @@ export default function () {
           target="_blank"
         >
           <img
-            class="contactImg"
+            className="contactImg"
             src={require("../../pics/insta.png")}
             alt="Instagram logo"
           />

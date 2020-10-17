@@ -2,22 +2,22 @@ import React from "react";
 
 export default function () {
   return (
-    <header class="navbar navbar-expand-lg">
-      <div class="logoName navbar-text">
-        <a class="navbar-brand" href="/">
+    <header className="navbar navbar-expand-lg">
+      <div className="logoName navbar-text">
+        <a className="navbar-brand" href="/">
           <img
-            class="navImg"
+            className="navImg"
             src={require("../../pics/logo.png")}
             alt="SS logo"
           />
         </a>
-        <a href="/" class="name">
+        <a href="/" className="name">
           Shannon Sagehorn
         </a>
       </div>
-      <div class="navBtns navbar-text ml-auto">
+      <div className="navBtns navbar-text ml-auto">
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#navbarText"
@@ -25,30 +25,30 @@ export default function () {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon ">
-            <img src={require("../../pics/menu.png")} alt="" class="menu" />
+          <span className="navbar-toggler-icon ">
+            <img src={require("../../pics/menu.png")} alt="" className="menu" />
           </span>
         </button>
-        <div class="toggler-example collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="/home">
-                Home<span class="sr-only">(current)</span>
+        <div className="toggler-example collapse navbar-collapse" id="navbarText">
+          <ul className="navbar-nav">
+            <li className="nav-item active">
+              <a className="nav-link" href="/home">
+                Home<span className="sr-only">(current)</span>
               </a>
             </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="/port">
-                Portfolio <span class="sr-only">(current)</span>
+            <li className="nav-item active">
+              <a className="nav-link" href="/port">
+                Portfolio <span className="sr-only">(current)</span>
               </a>
             </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="/res">
-                Resume <span class="sr-only">(current)</span>
+            <li className="nav-item active">
+              <a className="nav-link" href="/res">
+                Resume <span className="sr-only">(current)</span>
               </a>
             </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="/cont">
-                Contact Me <span class="sr-only">(current)</span>
+            <li className="nav-item active">
+              <a className="nav-link" href="/cont">
+                Contact Me <span className="sr-only">(current)</span>
               </a>
             </li>
           </ul>

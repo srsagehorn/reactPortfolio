@@ -2,36 +2,36 @@ import React from "react";
 
 export default function () {
   return (
-    <main class="pageContent">
+    <main className="pageContent">
       {/* <!-- image and tag line --> */}
-      <div class="colorBox">
-        <div class="row headLiner">
-          <div class="col-lg-6 imgContainer">
+      <div className="colorBox">
+        <div className="row headLiner">
+          <div className="col-lg-6 imgContainer">
             <img
-              class="imgMe"
+              className="imgMe"
               src={require("../../pics/me.jpg")}
               alt="portrait of Shannon"
             />
           </div>
-          <div class="col-lg-6 heading">
+          <div className="col-lg-6 heading">
             <div id="left">
-              <h2 class="firstln">
-                Chicago based <span class="prob"></span>
+              <h2 className="firstln">
+                Chicago based <span className="prob"></span>
               </h2>
             </div>
             <br />
-            <div class="secondln">
+            <div className="secondln">
               <h2>and Full-Stack Engineer</h2>
             </div>
           </div>
         </div>
       </div>
-      <div class="container index">
+      <div className="container index">
         {/* <!-- about me --> */}
-        <div class="row">
-          <div class="text">
+        <div className="row">
+          <div className="text">
             <h3>About Me</h3>
-            <p class="indent">
+            <p className="indent">
               Hey! My name is Shannon. I am an avid burger eater and terrible
               driver. I never remember my reusable bags and physically can’t
               walk in a straight line. Now that you know a little about my
@@ -42,7 +42,7 @@ export default function () {
               learning new languages. Finding out why something does or doesn’t
               work is why I love coding.
             </p>
-            <p class="indent">
+            <p className="indent">
               Like any other indecisive millennial, I wanted to find a career
               that was challenging and fulfilling. Software engineering was the
               perfect place to combine my love for design and creativity with
@@ -51,7 +51,7 @@ export default function () {
               just fun).
             </p>
 
-            <p class="indent">
+            <p className="indent">
               I am a recent graduate of the Full-Stack Graduate Certificate
               program at Northwestern and graduated Summa Cum Laude from Arizona
               State University with a Bachelor of Science in Graphic Information
@@ -65,7 +65,7 @@ export default function () {
               if you want to get in touch!
             </p>
             <p>Thanks!</p>
-            <p class="addBtmPadding">-Shan</p>
+            <p className="addBtmPadding">-Shan</p>
           </div>
         </div>
       </div>
