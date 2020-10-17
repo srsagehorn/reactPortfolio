@@ -12,8 +12,7 @@ import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
 import "./style.css";
 
-class App extends Component {
-  render() {
+function App () {
     return (
       <Router
         // basename={process.env.PUBLIC_URL}
@@ -28,6 +27,5 @@ class App extends Component {
       </Router>
     );
   }
-}
 
 export default App;
